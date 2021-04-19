@@ -1,0 +1,92 @@
+h1{
+    text-align: center;
+}
+
+body {
+    margin: 20px 20px 0px 20px;
+    padding: 15;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #222;
+    background-color: cornflowerblue;
+  }
+  /* Link Styles */
+
+
+  a {
+    text-decoration: none;
+    color: #999;
+  }
+  a:hover {
+    color: #6633ff;
+    text-decoration: underline;
+  }
+  
+  .nav {
+    display: flex;
+    float: right;
+    font-weight: 700;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .nav .name {
+      display: block;
+      margin-right: auto;
+      color: white;
+  }
+  .nav li {
+    padding: 5px 10px 10px 10px;
+  }
+  .nav a {
+    transition: all .5s;
+  }
+  .nav a:hover {
+    color: white
+  }
+
+  header {
+    display: block;
+    overflow: hidden;
+    line-height: 1.5;
+    background-color: darkslategrey;
+  }
+  header .profile-image {
+    float: left;
+    margin:10px 5px;
+    width: 150px;
+    height: 150px;
+    border-radius: 60%;
+    border: 5px double;
+    transition: all .7s;
+  }
+  header .profile-image:hover {
+    transform: scale(1.2) rotate(05deg);
+    border-width: 5px;
+    border-color: green;
+  }
+
+  section{
+      border-radius: 25px;
+      display: block;
+      background-color: white;
+      text-align: justify;
+      margin: 30px 150px;
+      padding: 20px;
+  }
+
+  dt{
+    font-weight: bold; 
+  }
+
+   ol > li{
+       font-weight: bold;
+   }
+
+   footer{
+       padding: 10px;
+       background-color: dimgray;
+       margin-bottom: 0px;
+   }
